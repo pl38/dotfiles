@@ -34,69 +34,58 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'php@8.0'
+brew 'php@8.2'
 brew 'php@7.4'
 brew 'composer'
 brew 'imagemagick'
-brew 'meilisearch'
-brew 'mysql'
-brew 'nginx'
+brew 'maria-db'
+brew 'apache'
 brew 'node'
 brew 'redis'
 brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'caffeine'
-cask 'camo-studio'
-cask 'dbngin'
-cask 'discord'
 cask 'docker'
-cask 'figma'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
 cask 'gpg-suite'
-cask 'helo'
-cask 'homebrew/cask-drivers/elgato-stream-deck'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
-cask 'phpmon'
-cask 'phpstorm'
 cask 'ray'
-cask 'screenflow'
 cask 'slack'
-cask 'tableplus'
-cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
-cask 'whatsapp'
-cask 'zoom'
+cask '1password-cli'
+cask 'basictex'
+cask 'calibre'
+cask 'libreoffice'
+cask 'losslesscut'
+cask 'ngrok'
+cask 'qlmarkdown'
+cask 'responsively'
+cask 'wkhtmltopdf'
+cask 'xmplify'
 
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
 
 # Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+cask font-fira-code
+cask font-lato
+cask font-open-sans
+cask font-roboto
+cask font-source-code-pro
+cask font-source-code-pro-for-powerline
+cask font-source-sans-pro
+cask font-source-serif-pro
+
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
